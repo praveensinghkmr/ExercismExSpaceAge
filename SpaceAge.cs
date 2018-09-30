@@ -31,9 +31,8 @@ public class SpaceAge
     }        
     public double OnJupiter()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(seconds / (earthYear * 11.862615), 2);
     }
-
     public double OnSaturn()
     {
         throw new NotImplementedException("You need to implement this function.");
