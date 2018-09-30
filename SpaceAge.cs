@@ -27,9 +27,8 @@ public class SpaceAge
 
     public double OnMars()
     {
-        throw new NotImplementedException("You need to implement this function.");
-    }
-
+        return Math.Round(seconds / (earthYear * 1.8808158), 2);
+    }        
     public double OnJupiter()
     {
         throw new NotImplementedException("You need to implement this function.");
