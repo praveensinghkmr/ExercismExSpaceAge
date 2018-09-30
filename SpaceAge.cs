@@ -2,13 +2,15 @@ using System;
 
 public class SpaceAge
 {
+    double seconds;
     public SpaceAge(long seconds)
     {
+        this.seconds = seconds;
     }
 
     public double OnEarth()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round((seconds / 31557600),2);
     }
 
     public double OnMercury()
