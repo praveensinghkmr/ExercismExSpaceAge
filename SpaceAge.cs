@@ -45,6 +45,6 @@ public class SpaceAge
 
     public double OnNeptune()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(seconds / (earthYear * 164.79132), 2);
     }
 }
